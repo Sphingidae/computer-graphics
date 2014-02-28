@@ -6,9 +6,9 @@
 
     <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/slate/bootstrap.min.css"
           media="screen"/>
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}stylesheets/stylesheet.css" media="screen"/>
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}stylesheets/pygment_trac.css" media="screen"/>
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}stylesheets/print.css" media="print"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/stylesheet.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/pygment_trac.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/print.css" media="print"/>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
 
     <title>{{ page.title }} — {{ site.name }}</title>
@@ -38,7 +38,7 @@
             <h3>Новости и задания</h3>
             <ul>
                 {% for post in site.posts %}
-                <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+                <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                 {% endfor %}
             </ul>
 
