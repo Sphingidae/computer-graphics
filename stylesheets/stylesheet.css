@@ -10,12 +10,6 @@ body {
 
 /* General & 'Reset' Stuff */
 
-.container {
-  width: 90%;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
 section {
   display: block;
   margin: 0 0 20px 0;
@@ -43,7 +37,7 @@ header {
   margin: 0 0 40px 0;
 }
 
-header h1 {
+header h1, header h1 a {
   font-size: 30px;
   line-height: 1.5;
   margin: 0 0 0 -40px;
@@ -57,6 +51,10 @@ header h1 {
   -webkit-font-smoothing: antialiased;
 }
 
+header h1 a {
+    margin: 0;
+}
+
 header h1:before {
   content: "./ ";
   font-size: 24px;
@@ -66,6 +64,11 @@ header h2 {
   font-size: 18px;
   font-weight: 300;
   color: #666;
+}
+
+header .github {
+    font-size: 6em;
+    line-height: normal;
 }
 
 #downloads .btn {
@@ -78,7 +81,6 @@ header h2 {
 */
 
 #main_content {
-  width: 100%;
   -webkit-font-smoothing: antialiased;
 }
 section img {

@@ -1,0 +1,6 @@
+name: Компьютерная графика, гр. 1202, ФИТ НГУ.
+markdown: kramdown
+pygments: true
+safe: true
+kramdown:
+  input: GFM
