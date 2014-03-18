@@ -21,7 +21,7 @@ title: Главная
 ## Сроки сдачи заданий
 
  * Задача №0 - <span style="color:orange">7 марта</span>.
- * Задача №1 - <span style="color:orange">21 марта</span>.
+ * Задача №1 - <span style="color:orange">28 марта</span>.
 
 ## Критерии оценки и итоговый зачет
 
