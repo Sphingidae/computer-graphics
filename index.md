@@ -23,6 +23,8 @@ title: Главная
 
  * Задача №0 - <span style="color:orange">7 марта</span>.
  * Задача №1 - <span style="color:orange">28 марта</span>.
+ * Задача №2 - <span style="color:orange">11 апреля</span>.
+ * Задача №3 - <span style="color:orange">2 мая</span>.
 
 ## Критерии оценки и итоговый зачет
 
